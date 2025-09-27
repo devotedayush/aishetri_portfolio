@@ -439,7 +439,7 @@ export default function Portfolio() {
               <div className="md:float-right md:ml-4 mb-4 flex justify-center md:justify-start">
                 <div className="relative bg-zinc-900 rounded-lg p-4 border border-zinc-700">
                   <img
-                    src="/mediaprofile.png"
+                    src="/mediaprofile.jpeg"
                     alt="2022 me"
                     className="w-48 h-auto rounded-lg border-2 border-amber-600/30"
                   />
