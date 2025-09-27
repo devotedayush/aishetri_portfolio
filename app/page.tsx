@@ -500,7 +500,7 @@ export default function Portfolio() {
     <div
       className="min-h-screen relative overflow-hidden"
       style={{
-        backgroundImage: "url('/background.png')",
+        backgroundImage: "url('/background.jpeg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
