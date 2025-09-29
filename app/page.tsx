@@ -19,6 +19,7 @@ import {
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { QuoteCarousel } from "@/components/quote-carousel"
+import { ArtCarousel } from "@/components/art-carousel"
 
 const navigationItems = [
   { id: "home", label: "(just) me" },
@@ -464,6 +465,15 @@ export default function Portfolio() {
                 <span className="text-xs text-zinc-500 italic">swipe to see more →</span>
               </div>
               <QuoteCarousel />
+            </div>
+
+            {/* Art designs carousel */}
+            <div className="space-y-3 mt-8">
+              <div className="flex items-baseline justify-between">
+                <h3 className="text-xl font-sans text-zinc-200">my art designs</h3>
+                <span className="text-xs text-zinc-500 italic">click arrows to browse →</span>
+              </div>
+              <ArtCarousel />
             </div>
 
             {/* Hobby Instagram */}
