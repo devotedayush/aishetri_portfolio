@@ -302,7 +302,7 @@ export default function Portfolio() {
                   writing has been my hobby for as long as i can remember, and i've been lucky enough to win some prizes through my pen work.
                 </p>
                 <p className="text-zinc-300 leading-relaxed">
-                  i'm currently a data science student at IIT Madras with a decent CGPA of 8.28/10 (not to brag, but i'm kinda proud of that!), and i'm genuinely passionate about this field  as it opens me to a variety of opportunities and experiences.
+                  i'm currently a data science student at IIT Madras with a decent CGPA of 8.33/10 (not to brag, but i'm kinda proud of that!), and i'm genuinely passionate about this field  as it opens me to a variety of opportunities and experiences.
                 </p>
               </div>
             </div>
