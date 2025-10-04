@@ -614,7 +614,7 @@ export default function Portfolio() {
               </div>
 
               <span className="text-zinc-500">—</span>
-              <span className="text-zinc-400 font-mono text-sm">22 years old</span>
+              <span className="text-zinc-400 font-mono text-sm">21 years old</span>
               <Plus className="hidden md:block w-4 h-4 text-zinc-500" />
               <Bold className="hidden md:block w-4 h-4 text-zinc-500" />
               <Italic className="hidden md:block w-4 h-4 text-zinc-500" />
