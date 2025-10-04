@@ -125,7 +125,7 @@ export default function Portfolio() {
                 <div className="w-8 h-8 bg-amber-600 rounded-full flex items-center justify-center">
                   <User className="w-4 h-4 text-black" />
                 </div>
-                <span className="text-zinc-300">hey there! enchanting to meet you :)</span>
+                <span className="text-zinc-300">hey there! enchanted to meet you :)</span>
                 <MoreVertical className="w-4 h-4 text-zinc-500 ml-auto" />
               </div>
 
