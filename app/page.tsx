@@ -344,14 +344,30 @@ export default function Portfolio() {
                   <p className="text-zinc-400 text-sm">Power BI, Tableau, Google Analytics</p>
                 </div>
                 <div className="bg-zinc-900 rounded-lg p-4 border border-zinc-700">
-                  <h4 className="text-zinc-200 font-semibold mb-2">Digital Marketing</h4>
-                  <p className="text-zinc-400 text-sm">LinkedIn Analytics, Google Ads, Instagram Creator Tools</p>
+                  <h4 className="text-zinc-200 font-semibold mb-2">Content Creation & Storytelling</h4>
+                  <p className="text-zinc-400 text-sm">LinkedIn Analytics, Creative Writing, Instagram Creator Tools</p>
                 </div>
                 <div className="bg-zinc-900 rounded-lg p-4 border border-zinc-700">
                   <h4 className="text-zinc-200 font-semibold mb-2">Research & Strategy</h4>
                   <p className="text-zinc-400 text-sm">Market Analysis, Consumer Behavior, Campaign Planning</p>
                 </div>
               </div>
+            </div>
+
+            <h3 className="text-xl font-sans text-zinc-200 mb-4">my professional journey</h3>
+            <div className="space-y-4 mb-8">
+              {experiences.map((exp, index) => (
+                <div key={index} className="bg-zinc-900 rounded-lg p-6 border border-zinc-700">
+                  <div className="flex justify-between items-start mb-2">
+                    <h3 className="text-lg font-semibold text-zinc-200">{exp.title}</h3>
+                    <span className="text-zinc-400 text-sm">{exp.period}</span>
+                  </div>
+                  <div className="text-zinc-400 mb-2">
+                    {exp.company} • {exp.type}
+                  </div>
+                  <p className="text-zinc-300 leading-relaxed">{exp.description}</p>
+                </div>
+              ))}
             </div>
 
             <div className="space-y-4 mb-8">
@@ -376,22 +392,6 @@ export default function Portfolio() {
                   <p className="text-zinc-400 text-sm">2x gold, 2x silver, 1x bronze in creative writing</p>
                 </div>
               </div>
-            </div>
-
-            <h3 className="text-xl font-sans text-zinc-200 mb-4">my professional journey</h3>
-            <div className="space-y-4">
-              {experiences.map((exp, index) => (
-                <div key={index} className="bg-zinc-900 rounded-lg p-6 border border-zinc-700">
-                  <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-lg font-semibold text-zinc-200">{exp.title}</h3>
-                    <span className="text-zinc-400 text-sm">{exp.period}</span>
-                  </div>
-                  <div className="text-zinc-400 mb-2">
-                    {exp.company} • {exp.type}
-                  </div>
-                  <p className="text-zinc-300 leading-relaxed">{exp.description}</p>
-                </div>
-              ))}
             </div>
 
             <div className="space-y-4 mt-8">
